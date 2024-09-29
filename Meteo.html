@@ -3,16 +3,15 @@
 
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-56D43S8J');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KVDGRCG5G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4KVDGRCG5G');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Météo</title>
@@ -25,10 +24,7 @@
 
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56D43S8J" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
     <header>
         <h1>Herman Vardanian</h1>
         <span class="separator"></span>
@@ -49,7 +45,9 @@
 
             <h3>Introduction</h3>
             <p>
-                J'ai réalisé un projet Meteo en JS en utilisant la géolocalisation de l'utilisateur et en utilisant une API pour recupérer les données et les afficher. Il y a également la possibilité de changer la ville pour voir la température en temps réel dans d'autres villes.
+                J'ai réalisé un projet Meteo en JS en utilisant la géolocalisation de l'utilisateur et en utilisant une
+                API pour recupérer les données et les afficher. Il y a également la possibilité de changer la ville pour
+                voir la température en temps réel dans d'autres villes.
             </p>
 
 
@@ -61,10 +59,10 @@
             <div id="projets">
 
                 <div class="projet">
-                        <div class="picture">
-                            <img src="pictures/Meteo.png" alt="mon premier projet" />
-                        </div>
-                        <span>Projet météo avec géolocalisation et utilisation d'API</span>
+                    <div class="picture">
+                        <img src="pictures/meteo.png" alt="Projet Meteo" />
+                    </div>
+                    <span>Projet météo avec géolocalisation et utilisation d'API</span>
                     </a>
                 </div>
             </div>
